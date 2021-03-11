@@ -1,13 +1,16 @@
 {
-  "Player": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Inventory[]"
-  },
-  "Inventory": {
-    "body": "string",
-    "post": "Post"
-  }
+    "Players": {
+        "id": "int",
+        "steamId": "string",
+        "name": "string",
+        "views": "int",
+        "isOnline": "boolean",
+        "lastLogin": "date",
+        "inventory": "Inventory"
+    },
+    "Inventory": "InventoryItem[]",
+    "InventoryItem": {
+        "id" : "int",
+        "name" : "string"
+    }
 }
