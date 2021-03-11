@@ -6,7 +6,7 @@
     "isOnline": "boolean",
     "lastPosition": {
         "x" : "int",
-        "y" : "int,
+        "y" : "int",
         "z" : "int",
     },
     "comments": "Comment[]"
