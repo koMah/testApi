@@ -6,10 +6,5 @@
         "views": "int",
         "isOnline": "boolean",
         "lastLogin": "date",
-        "inventory": "Inventory"
-    },
-    "Inventory": {
-        "id" : "int",
-        "name" : "string"
     }
 }
