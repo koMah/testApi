@@ -8,8 +8,7 @@
         "lastLogin": "date",
         "inventory": "Inventory"
     },
-    "Inventory": "InventoryItem[]",
-    "InventoryItem": {
+    "Inventory": {
         "id" : "int",
         "name" : "string"
     }
