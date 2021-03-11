@@ -4,11 +4,6 @@
     "steamId": "String",
     "lastLogin": "date",
     "isOnline": "boolean",
-    "lastPosition": {
-        "x" : "int",
-        "y" : "int",
-        "z" : "int",
-    },
     "comments": "Comment[]"
   },
   "Comment": {
