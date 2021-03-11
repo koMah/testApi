@@ -1,12 +1,12 @@
 {
-  "Post": {
+  "Player": {
     "title": "string",
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "Comment[]"
+    "comments": "Inventory[]"
   },
-  "Comment": {
+  "Inventory": {
     "body": "string",
     "post": "Post"
   }
