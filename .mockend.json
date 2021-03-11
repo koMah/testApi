@@ -6,9 +6,8 @@
         "views": "int",
         "isOnline": "boolean",
         "lastLogin": "date",
-        "inventory": "Inventory"
+        "inventory": "InventoryItem[]"
     },
-    "Inventory": "InventoryItem[]",
     "InventoryItem": {
         "id" : "int",
         "name" : "string"
