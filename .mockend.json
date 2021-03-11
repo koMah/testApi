@@ -1,15 +1,18 @@
 {
-    "Players": {
-        "id": "int",
-        "steamId": "string",
-        "name": "string",
-        "views": "int",
-        "isOnline": "boolean",
-        "lastLogin": "date",
-        "inventory": "InventoryItem[]"
+  "Players": {
+    "id": "int",
+    "steamId": "String",
+    "lastLogin": "date",
+    "isOnline": "boolean",
+    "lastPosition": {
+        "x" : "int",
+        "y" : "int,
+        "z" : "int",
     },
-    "InventoryItem": {
-        "id" : "int",
-        "name" : "string"
-    }
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
